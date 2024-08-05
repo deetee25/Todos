@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition-duration:  300ms;
+}
+
+html {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    min-height: 100vh;
+    background-color:  #0f172a;
+    color: white;
+    display:  flex;
+    flex-direction: column;
+    gap:  24px;
+    padding:  24px;
+}
+
+main {
+    display:  flex;
+    flex-direction: column;
+    gap:  8px;
+    flex: 1;
+}
+
+header {
+    display:  flex;
+    align-items:  center;
+    justify-content:  space-between;
+}
+
+.plusIcon {
+    font-size:  1.5rem;
+    cursor:  pointer;
+}
+
+.plusIcon:hover {
+    color:  cyan;
+}
